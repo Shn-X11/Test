@@ -1,0 +1,8 @@
+name: learn-github-action
+
+on: [push]
+jobs:
+  run-python:
+    runs-on: wi-latest
+    steps:
+      - run: python3 hello.py
